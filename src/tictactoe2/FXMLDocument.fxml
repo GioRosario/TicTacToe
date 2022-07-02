@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="490.0" prefWidth="330.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tictactoe2.FXMLDocumentController">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="160.0" stroke="WHITE" strokeType="INSIDE" width="330.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="110.0" layoutY="160.0" stroke="WHITE" strokeType="INSIDE" width="110.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="110.0" layoutX="110.0" layoutY="160.0" stroke="WHITE" strokeType="INSIDE" width="110.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="110.0" layoutX="220.0" layoutY="160.0" stroke="WHITE" strokeType="INSIDE" width="110.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="110.0" layoutX="220.0" layoutY="270.0" stroke="WHITE" strokeType="INSIDE" width="110.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="110.0" layoutX="110.0" layoutY="270.0" stroke="WHITE" strokeType="INSIDE" width="110.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="110.0" layoutY="270.0" stroke="WHITE" strokeType="INSIDE" width="110.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="110.0" layoutY="380.0" stroke="WHITE" strokeType="INSIDE" width="110.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="110.0" layoutX="110.0" layoutY="380.0" stroke="WHITE" strokeType="INSIDE" width="110.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="110.0" layoutX="220.0" layoutY="380.0" stroke="WHITE" strokeType="INSIDE" width="110.0" />
+      <Text fx:id="one" fill="WHITE" layoutX="34.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font></Text>
+      <Text fx:id="two" fill="WHITE" layoutX="150.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font></Text>
+      <Text fx:id="three" fill="WHITE" layoutX="260.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font></Text>
+      <Text fx:id="four" fill="WHITE" layoutX="34.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font></Text>
+      <Text fx:id="five" fill="WHITE" layoutX="150.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font></Text>
+      <Text fx:id="six" fill="WHITE" layoutX="260.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font></Text>
+      <Text fx:id="seven" fill="WHITE" layoutX="34.0" layoutY="450.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font></Text>
+      <Text fx:id="eight" fill="WHITE" layoutX="150.0" layoutY="450.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font></Text>
+      <Text fx:id="nine" fill="WHITE" layoutX="260.0" layoutY="450.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font></Text>
+      <HBox fx:id="textBox" layoutX="122.0" layoutY="14.0" prefHeight="39.0" prefWidth="100.0" />
+      <Line fx:id="hor1" endX="130.0" layoutX="150.0" layoutY="215.0" opacity="0.0" startX="-110.0" strokeWidth="7.0" />
+      <Line fx:id="hor2" endX="130.0" layoutX="150.0" layoutY="325.0" opacity="0.0" startX="-110.0" strokeWidth="7.0" />
+      <Line fx:id="hor3" endX="130.0" layoutX="150.0" layoutY="435.0" opacity="0.0" startX="-110.0" stroke="WHITE" strokeWidth="7.0" />
+      <Line fx:id="vert1" endX="-100.0" endY="243.0" layoutX="149.0" layoutY="208.0" opacity="0.0" startX="-100.0" stroke="WHITE" strokeWidth="7.0" />
+      <Line fx:id="vert2" endX="-100.0" endY="243.0" layoutX="270.0" layoutY="211.0" opacity="0.0" startX="-100.0" stroke="WHITE" strokeWidth="7.0" />
+      <Line fx:id="vert3" endX="-100.0" endY="243.0" layoutX="375.0" layoutY="208.0" opacity="0.0" startX="-100.0" stroke="WHITE" strokeWidth="7.0" />
+      <Line fx:id="diag1" endX="129.5" endY="228.5" layoutX="154.0" layoutY="210.0" opacity="0.0" startX="-100.0" stroke="WHITE" strokeWidth="7.0" />
+      <Line fx:id="diag2" endX="9.5" endY="196.0" layoutX="36.0" layoutY="247.0" opacity="0.0" startX="249.0" startY="-36.0" stroke="WHITE" strokeWidth="7.0" />
+      <Button fx:id="btnOne" layoutY="160.0" mnemonicParsing="false" opacity="0.0" prefHeight="110.0" prefWidth="110.0" />
+      <Button fx:id="btnTwo" layoutX="110.0" layoutY="160.0" mnemonicParsing="false" opacity="0.0" prefHeight="110.0" prefWidth="110.0" />
+      <Button fx:id="btnThree" layoutX="220.0" layoutY="160.0" mnemonicParsing="false" opacity="0.0" prefHeight="110.0" prefWidth="110.0" />
+      <Button fx:id="btnFour" layoutY="270.0" mnemonicParsing="false" opacity="0.0" prefHeight="110.0" prefWidth="110.0" />
+      <Button fx:id="btnFive" layoutX="106.0" layoutY="278.0" mnemonicParsing="false" opacity="0.0" prefHeight="110.0" prefWidth="110.0" />
+      <Button fx:id="btnSix" layoutX="220.0" layoutY="270.0" mnemonicParsing="false" opacity="0.0" prefHeight="110.0" prefWidth="110.0" />
+      <Button fx:id="btnSeven" layoutY="380.0" mnemonicParsing="false" opacity="0.0" prefHeight="110.0" prefWidth="110.0" />
+      <Button fx:id="btnEight" layoutX="110.0" layoutY="380.0" mnemonicParsing="false" opacity="0.0" prefHeight="110.0" prefWidth="110.0" />
+      <Button fx:id="btnNine" layoutX="220.0" layoutY="380.0" mnemonicParsing="false" opacity="0.0" prefHeight="110.0" prefWidth="110.0" />
+      <Button fx:id="btnClear" layoutX="119.0" layoutY="65.0" mnemonicParsing="false" opacity="0.0" prefHeight="31.0" prefWidth="74.0" text="Play Again" textFill="WHITE" />
+    </children>
+</AnchorPane>
